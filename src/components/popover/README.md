@@ -710,7 +710,7 @@ To open (show) a **specific popover**, pass the trigger element's `id` as the fi
 emitting the `bv::show::popover` event:
 
 ```js
-this.$root.$emit('bv::show::popover', 'my-trigger-button-id');
+this.$root.$emit('bv::hide::popover', 'my-trigger-button-id');
 ```
 
 To open all popovers simultaneously, omit the `id` argument when emitting the
